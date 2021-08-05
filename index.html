@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Foster A Pet</title>
+   <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Sign Up to Foster a Pet</h1>
+      <table>
+        <tr>
+          <td colspan="4">Available Pets</td>
+        </tr>
+        <tr>
+          <td>Name</td>
+          <td>Age</td>
+          <td>Breed</td>
+          <td>Picture</td>
+        </tr>
+        <tr>
+          <td>Benny</td>
+          <td>2</td>
+          <td>Golden Retriever</td>
+          <td><img src="https://www.petmd.com/sites/default/files/2020-11/picture-of-golden-retriever-dog_0.jpg" name="benny"></td>
+        </tr>
+        <tr>
+          <td>Felix</td>
+          <td>5</td>
+          <td>Orange Tabby</td>
+          <td><img src="http://static1.squarespace.com/static/5452d441e4b0c188b51fef1a/54b43ba0e4b0507d3b176483/6047ed034526a527f73b27d5/1615326601146/male-orange-tabby-cat.jpg?format=1500w" name="felix"></td>
+        </tr>
+        <tr>
+          <td>Cooper</td>
+          <td>8</td>
+          <td>German Shepherd</td>
+          <td><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg" name="cooper"></td>
+        </tr>
+        <tr>
+          <td>Anna</td>
+          <td>3</td>
+          <td>Long-Haired Dachshund</td>
+          <td><img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/07143620/Longhaired-Dachshund-standing-outdoors.jpg" name="anna"></td>
+        </tr>
+      </table>
+      <img src="assets/dog.png" alt="Cute Dog Looking Over Form" width="40%">
+    </header>
+    <form action="">
+      <label for="name">Full Name:</label>
+      <input id="name" type="text" placeholder="Jane Doe" name="name">
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <label for="pw">Password:</label>
+      <input type="password" id="pw" name="password">
+      <label for="num-pets">Number of Pets:</label>
+      <input type="number" id="num-pets" min="0" name="num-pets">
+      <h4>Have you fostered before?</h4>
+      <label for="yes">
+        <input type="radio" id="yes" name="prev-experience">Yes</input>
+      </label>
+      <label for="No">
+        <input type="radio" id="No" name="prev-experience">No</input>
+      </label>
+      <h4>Which of these apply to your home?</h4>
+      <label for="apartment">Apartment</label>
+      <input type="checkbox" id="apartment" name="apartment">
+      <label for="children">Children</label>
+      <input type="checkbox" id="children" name="children">
+      <label for="yard">Yard</label>
+      <input type="checkbox" id="yard" name="yard">
+      <input type="submit" value="Sign Up">
+    </form>
+  </body>
+</html>
